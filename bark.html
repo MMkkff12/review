@@ -1,0 +1,32 @@
+<!-- 
+  This HTML page only prints to the comsole. Change the  code so it prints to the html page.
+ -->
+ 
+ <!doctype html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <title>Bark</title>
+   </head>
+   <body>
+   </body>
+   <script>
+ function bark(name, weight) {
+    if (weight > 20) {
+        document.getElementById("output").innerHTML = (name + " says WOOF WOOF");
+    } else {
+        document.getElementById("output").innerHTML = (name + " says woof woof");
+    }
+ }
+ bark("rover", 23);
+ 
+ bark("spot", 13);
+ 
+ bark("spike", 53);
+ 
+ bark("lady", 17);
+ <h4 id = "output"> </h4>
+   </script>
+
+ </body>
+ </html>
